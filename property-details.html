@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ==================== NAVIGATION ==================== -->
+<header>
+    <div class="nav-container">
+        <a href="index.html" class="logo">LUXOR EMIRATES</a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="communities.html" class="active">Properties</a>
+            <a href="agents.html">Our Agents</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="btn-nav">Book Consultation</a>
+    </div>
+</header>
+
+<!-- ==================== PROPERTY GALLERY ==================== -->
+<section class="section" style="padding-top: 120px;">
+    
+    <!-- Image Gallery Grid -->
+    <div class="prop-gallery">
+        <img src="https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Main Property" class="prop-main-img">
+        <div class="prop-side-img">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Interior View">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bedroom">
+        </div>
+    </div>
+
+    <!-- Property Header Info -->
+    <div class="prop-header">
+        <div>
+            <h1 style="font-size: 2.5rem;">Luxury 5BR Villa in Palm Jumeirah</h1>
+            <p style="color: var(--text-gray); margin-top: 10px;">
+                <i class="fas fa-map-marker-alt" style="color: var(--gold); margin-right: 8px;"></i> 
+                Palm Jumeirah, Frond C, Dubai
+            </p>
+        </div>
+        <div class="price" style="font-size: 2.5rem;">AED 15,500,000</div>
+    </div>
+
+    <!-- Main Content Grid -->
+    <div class="prop-details-grid">
+        
+        <!-- Left Column: Description & Features -->
+        <div class="prop-desc">
+            
+            <!-- Quick Stats -->
+            <div style="display: flex; gap: 40px; padding-bottom: 30px; border-bottom: 1px solid #334155; margin-bottom: 30px;">
+                <div style="text-align: center;">
+                    <h3 style="color: var(--gold); font-size: 1.8rem;">5</h3>
+                    <span style="color: var(--text-gray); font-size: 0.9rem;">Bedrooms</span>
+                </div>
+                <div style="text-align: center;">
+                    <h3 style="color: var(--gold); font-size: 1.8rem;">6</h3>
+                    <span style="color: var(--text-gray); font-size: 0.9rem;">Bathrooms</span>
+                </div>
+                <div style="text-align: center;">
+                    <h3 style="color: var(--gold); font-size: 1.8rem;">6,500</h3>
+                    <span style="color: var(--text-gray); font-size: 0.9rem;">Sq. Ft.</span>
+                </div>
+            </div>
+
+            <h3>Property Description</h3>
+            <p>
+                Experience the pinnacle of luxury living with this stunning 5-bedroom villa located on the exclusive Palm Jumeirah. 
+                Featuring floor-to-ceiling windows that flood the space with natural light, this property offers breathtaking 
+                panoramic views of the Arabian Gulf.
+            </p>
+            <br>
+            <p>
+                The villa boasts a private beach, an infinity-edge swimming pool, and a fully integrated smart home system. 
+                The open-plan living and dining area is perfect for entertaining, while the gourmet kitchen is equipped 
+                with top-of-the-line Miele appliances. Relax in your private master suite or enjoy movie nights in the 
+                dedicated home theater.
+            </p>
+            
+            <h3 style="margin-top: 40px;">Features & Amenities</h3>
+            <ul class="prop-features">
+                <li><i class="fas fa-check"></i> Private Beach Access</li>
+                <li><i class="fas fa-check"></i> Infinity Swimming Pool</li>
+                <li><i class="fas fa-check"></i> Smart Home Automation</li>
+                <li><i class="fas fa-check"></i> Home Cinema</li>
+                <li><i class="fas fa-check"></i> Fully Furnished Interior</li>
+                <li><i class="fas fa-check"></i> 24/7 Security & Concierge</li>
+                <li><i class="fas fa-check"></i> Private Garage (4 Cars)</li>
+                <li><i class="fas fa-check"></i> Central Air Conditioning</li>
+                <li><i class="fas fa-check"></i> Built-in Wardrobes</li>
+                <li><i class="fas fa-check"></i> Maids Room & Driver Room</li>
+            </ul>
+
+            <!-- Map Location -->
+            <h3 style="margin-top: 40px;">Location</h3>
+            <div style="background: var(--navy-light); height: 300px; display: flex; align-items: center; justify-content: center; border: 1px solid #334155;">
+                <div style="text-align: center;">
+                    <i class="fas fa-map-marked-alt" style="font-size: 3rem; color: var(--gold); margin-bottom: 15px;"></i>
+                    <p style="color: var(--text-gray);">View on Google Maps</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Booking Form -->
+        <div>
+            <div class="booking-card">
+                <h3 style="margin-bottom: 20px; text-align: center;">Interested in this property?</h3>
+                <span class="price" style="text-align: center; display: block;">₹ 15,500,000</span>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <textarea placeholder="I am interested in this property..."></textarea>
+                    <button type="submit" class="btn-book">Request Details</button>
+                </form>
+                
+                <div style="margin-top: 25px; text-align: center; border-top: 1px solid #334155; padding-top: 20px;">
+                    <p style="margin-bottom: 10px; font-size: 0.9rem; color: var(--text-gray);">Or contact us directly:</p>
+                    <a href="#" style="color: var(--gold); font-size: 1.5rem; margin: 0 10px;"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" style="color: var(--gold); font-size: 1.5rem; margin: 0 10px;"><i class="fas fa-phone"></i></a>
+                    <a href="#" style="color: var(--gold); font-size: 1.5rem; margin: 0 10px;"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== SIMILAR PROPERTIES ==================== -->
+<section class="section" style="background: var(--navy-light);">
+    <div class="section-title reveal">
+        <h2>Similar Properties</h2>
+        <div class="divider"></div>
+    </div>
+    
+    <div class="property-grid">
+        <!-- Similar Property 1 -->
+        <div class="property-card reveal">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-image">
+            <div class="card-details">
+                <span class="status">For Sale</span>
+                <span class="price">₹ 22,000,000</span>
+                <h3 class="address">Emirates Hills Villa</h3>
+                <div class="amenities">
+                    <span><i class="fas fa-bed"></i> 7 Beds</span>
+                    <span><i class="fas fa-bath"></i> 8 Baths</span>
+                </div>
+                <a href="property-details.html" class="btn-card">View Details</a>
+            </div>
+        </div>
+
+        <!-- Similar Property 2 -->
+        <div class="property-card reveal">
+            <img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-image">
+            <div class="card-details">
+                <span class="status">For Sale</span>
+                <span class="price">₹ 28,000,000</span>
+                <h3 class="address">Marina Penthouse</h3>
+                <div class="amenities">
+                    <span><i class="fas fa-bed"></i> 4 Beds</span>
+                    <span><i class="fas fa-bath"></i> 5 Baths</span>
+                </div>
+                <a href="property-details.html" class="btn-card">View Details</a>
+            </div>
+        </div>
+
+        <!-- Similar Property 3 -->
+        <div class="property-card reveal">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-image">
+            <div class="card-details">
+                <span class="status">For Rent</span>
+                <span class="price">₹ 350,000 / Year</span>
+                <h3 class="address">Downtown Apartment</h3>
+                <div class="amenities">
+                    <span><i class="fas fa-bed"></i> 3 Beds</span>
+                    <span><i class="fas fa-bath"></i> 3 Baths</span>
+                </div>
+                <a href="property-details.html" class="btn-card">View Details</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+    <div class="footer-grid">
+        <div class="footer-col">
+            <h4>Luxor Emirates</h4>
+            <p style="color: var(--text-gray); margin-bottom: 20px;">Your trusted partner in luxury real estate.</p>
+            <div class="socials" style="display: flex; gap: 15px;">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="communities.html">Properties</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Communities</h4>
+            <ul>
+                <li><a href="#">Palm Jumeirah</a></li>
+                <li><a href="#">Downtown Dubai</a></li>
+                <li><a href="#">Dubai Marina</a></li>
+                <li><a href="#">Emirates Hills</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Dubai, UAE</li>
+                <li><i class="fas fa-phone"></i> +971 4 123 4567</li>
+                <li><i class="fas fa-envelope"></i> info@luxoremirates.com</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Luxor Emirates. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script>
+    // Scroll Animation Script
+    window.addEventListener('scroll', reveal);
+    function reveal() {
+        var reveals = document.querySelectorAll('.reveal');
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var revealTop = reveals[i].getBoundingClientRect().top;
+            if (revealTop < windowHeight - 150) {
+                reveals[i].classList.add('active');
+            }
+        }
+    }
+    reveal();
+</script>
+</body>
+</html>
